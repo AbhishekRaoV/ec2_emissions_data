@@ -1,3 +1,239 @@
+r6i.large:
+  kind: r6i.large
+  vcpu: 2
+  memorygb: 8
+  gpucount: 0
+  gpumemorygb: 0
+  storageinfoandsizegb: EBS-Only
+  storagetype: EBS
+  pkgwatt:
+  - percentage: 0
+    wattage: 1.09
+  - percentage: 10
+    wattage: 2.98
+  - percentage: 50
+    wattage: 7.05
+  - percentage: 100
+    wattage: 9.55
+  ramwatt:
+  - percentage: 0
+    wattage: 1.60
+  - percentage: 10
+    wattage: 2.40
+  - percentage: 50
+    wattage: 3.20
+  - percentage: 100
+    wattage: 4.80
+  gpuwatt:
+  - percentage: 0
+    wattage: 0
+  - percentage: 10
+    wattage: 0
+  - percentage: 50
+    wattage: 0
+  - percentage: 100
+    wattage: 0
+  totalwatt:
+  - percentage: 0
+    wattage: 4.6
+  - percentage: 10
+    wattage: 7.3
+  - percentage: 50
+    wattage: 12.1
+  - percentage: 100
+    wattage: 16.2
+  deltafullmachine: 1.9
+  embodiedhourlygco2e: 9.9
+  platform:
+    architecture: Graviton
+    hardwareinformation: AWS Graviton (ARM)
+    vcpu: 16
+    memorygb: 32
+    storagedrivecount: 0
+    gpucount: 0
+    gpuname: N/A
+    memoryscope3: 22.2
+    storagescope3: 0
+    gpuscope3: 0
+    cpuscope3: 0
+    totalscope3: 1022.2
+r6i.xlarge:
+  kind: r6i.xlarge
+  vcpu: 4
+  memorygb: 16
+  gpucount: 0
+  gpumemorygb: 0
+  storageinfoandsizegb: EBS-Only
+  storagetype: EBS
+  pkgwatt:
+  - percentage: 0
+    wattage: 2.18
+  - percentage: 10
+    wattage: 5.97
+  - percentage: 50
+    wattage: 14.10
+  - percentage: 100
+    wattage: 19.10
+  ramwatt:
+  - percentage: 0
+    wattage: 3.20
+  - percentage: 10
+    wattage: 4.80
+  - percentage: 50
+    wattage: 6.40
+  - percentage: 100
+    wattage: 9.60
+  gpuwatt:
+  - percentage: 0
+    wattage: 0
+  - percentage: 10
+    wattage: 0
+  - percentage: 50
+    wattage: 0
+  - percentage: 100
+    wattage: 0
+  totalwatt:
+  - percentage: 0
+    wattage: 9.1
+  - percentage: 10
+    wattage: 14.5
+  - percentage: 50
+    wattage: 24.3
+  - percentage: 100
+    wattage: 32.4
+  deltafullmachine: 3.8
+  embodiedhourlygco2e: 9.9
+  platform:
+    architecture: Graviton
+    hardwareinformation: AWS Graviton (ARM)
+    vcpu: 16
+    memorygb: 32
+    storagedrivecount: 0
+    gpucount: 0
+    gpuname: N/A
+    memoryscope3: 22.2
+    storagescope3: 0
+    gpuscope3: 0
+    cpuscope3: 0
+    totalscope3: 1022.2
+r7i.large:
+  kind: r7i.large
+  vcpu: 2
+  memorygb: 8
+  gpucount: 0
+  gpumemorygb: 0
+  storageinfoandsizegb: EBS-Only
+  storagetype: EBS
+  pkgwatt:
+  - percentage: 0
+    wattage: 1.09
+  - percentage: 10
+    wattage: 2.98
+  - percentage: 50
+    wattage: 7.05
+  - percentage: 100
+    wattage: 9.55
+  ramwatt:
+  - percentage: 0
+    wattage: 1.60
+  - percentage: 10
+    wattage: 2.40
+  - percentage: 50
+    wattage: 3.20
+  - percentage: 100
+    wattage: 4.80
+  gpuwatt:
+  - percentage: 0
+    wattage: 0
+  - percentage: 10
+    wattage: 0
+  - percentage: 50
+    wattage: 0
+  - percentage: 100
+    wattage: 0
+  totalwatt:
+  - percentage: 0
+    wattage: 4.6
+  - percentage: 10
+    wattage: 7.3
+  - percentage: 50
+    wattage: 12.1
+  - percentage: 100
+    wattage: 16.2
+  deltafullmachine: 1.9
+  embodiedhourlygco2e: 9.9
+  platform:
+    architecture: Graviton
+    hardwareinformation: AWS Graviton (ARM)
+    vcpu: 16
+    memorygb: 32
+    storagedrivecount: 0
+    gpucount: 0
+    gpuname: N/A
+    memoryscope3: 22.2
+    storagescope3: 0
+    gpuscope3: 0
+    cpuscope3: 0
+    totalscope3: 1022.2
+r7i.xlarge:
+  kind: r7i.xlarge
+  vcpu: 4
+  memorygb: 16
+  gpucount: 0
+  gpumemorygb: 0
+  storageinfoandsizegb: EBS-Only
+  storagetype: EBS
+  pkgwatt:
+  - percentage: 0
+    wattage: 2.18
+  - percentage: 10
+    wattage: 5.97
+  - percentage: 50
+    wattage: 14.10
+  - percentage: 100
+    wattage: 19.10
+  ramwatt:
+  - percentage: 0
+    wattage: 3.20
+  - percentage: 10
+    wattage: 4.80
+  - percentage: 50
+    wattage: 6.40
+  - percentage: 100
+    wattage: 9.60
+  gpuwatt:
+  - percentage: 0
+    wattage: 0
+  - percentage: 10
+    wattage: 0
+  - percentage: 50
+    wattage: 0
+  - percentage: 100
+    wattage: 0
+  totalwatt:
+  - percentage: 0
+    wattage: 9.1
+  - percentage: 10
+    wattage: 14.5
+  - percentage: 50
+    wattage: 24.3
+  - percentage: 100
+    wattage: 32.4
+  deltafullmachine: 3.8
+  embodiedhourlygco2e: 9.9
+  platform:
+    architecture: Graviton
+    hardwareinformation: AWS Graviton (ARM)
+    vcpu: 16
+    memorygb: 32
+    storagedrivecount: 0
+    gpucount: 0
+    gpuname: N/A
+    memoryscope3: 22.2
+    storagescope3: 0
+    gpuscope3: 0
+    cpuscope3: 0
+    totalscope3: 1022.2
 a1.2xlarge:
   kind: a1.2xlarge
   vcpu: 8
